@@ -52,10 +52,10 @@ end
 -- Settings {{{2
 local lineLengthWarning = 80
 local lineLengthError = 120
-local leftbracket = "" -- Curve.
-local rightbracket = "" -- Curve.
--- local leftbracket = u 'e0b2' -- Angle filled.
--- local rightbracket = u 'e0b0' -- Angle filled.
+-- local leftbracket = "" -- Curve.
+-- local rightbracket = "" -- Curve.
+local leftbracket = u 'e0b2' -- Angle filled.
+local rightbracket = u 'e0b0' -- Angle filled.
 -- local leftbracket = u 'e0b3' -- Angle.
 -- local rightbracket = u 'e0b1' -- Angle.
 -- }}}2
