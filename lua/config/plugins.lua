@@ -11,6 +11,15 @@ return {
 		end,
 	},
 	{ "nvim-lua/plenary.nvim" },
+  {
+    "windwp/nvim-ts-autotag",
+    dependencies = "nvim-treesitter/nvim-treesitter",
+    config = function ()
+      require('plugins.treesitter')
+    end,
+    lazy = true,
+    event = "VeryLazy"
+  },
 	{
 		"nvim-tree/nvim-web-devicons",
 		config = function()

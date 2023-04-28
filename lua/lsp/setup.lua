@@ -49,7 +49,7 @@ local handlers = {
   ["textDocument/signatureHelp"] = vim.lsp.with(vim.lsp.handlers.signature_help, { border = EcoVim.ui.float.border }),
   ["textDocument/publishDiagnostics"] = vim.lsp.with(
     vim.lsp.diagnostic.on_publish_diagnostics,
-    { virtual_text = EcoVim.lsp.virtual_text }
+    { virtual_text = EcoVim.lsp.virtual_text, update_in_insert = true}
   ),
 }
 
