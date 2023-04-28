@@ -1,18 +1,18 @@
-require('base')
-require('highlights')
-require('maps')
-require('plugins')
+require('config.EcoVim')
 
-local has = function(x)
-  return vim.fn.has(x) == 1
-end
+require('utils.globals')
+require('utils.functions')
 
-local is_mac = has "macunix"
-local is_win = has "win32"
+require('config.options')
+require('config.lazy')
+require('config.keymappings')
+require('config.autocmds')
 
-if is_mac then
-  require('macos')
-end
-if is_win then
-  require('windows')
-end
+require('internal.winbar')
+require('internal.cursorword')
+
+require('lsp.config')
+require('lsp.setup')
+require('lsp.functions')
+
+require('snippets.react')
