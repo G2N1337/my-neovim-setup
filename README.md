@@ -1,4 +1,4 @@
-# Ecovim: Frontend Neovim Config
+# Ecovim: Frontend Neovim Config (G2N1337 Edition)
 
 [![Last commit](https://img.shields.io/github/last-commit/ecosse3/nvim?style=for-the-badge)](https://github.com/ecosse3/nvim/commits/master)
 ![Stars](https://img.shields.io/github/stars/ecosse3/nvim?style=for-the-badge)
