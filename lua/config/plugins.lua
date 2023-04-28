@@ -10,6 +10,7 @@ return {
 			require("config.colorscheme")
 		end,
 	},
+  { "MunifTanjim/prettier.nvim" },
 	{ "nvim-lua/plenary.nvim" },
   {
     "windwp/nvim-ts-autotag",
