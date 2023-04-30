@@ -23,7 +23,7 @@ local codes = {
   },
   redefinition = {
     message = " That variable was defined before",
-    icon = " ",
+    icon = " ijsdiasjd",
     "redefinition",
     "redefined-local",
     "no-duplicate-imports",
