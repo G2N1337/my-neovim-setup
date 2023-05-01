@@ -54,7 +54,7 @@ local lineLengthWarning = 80
 local lineLengthError = 120
 -- local leftbracket = "" -- Curve.
 -- local rightbracket = "" -- Curve.
-local leftbracket = u 'e0b2' -- Angle filled.
+local leftbracket = u 'e0b2'  -- Angle filled.
 local rightbracket = u 'e0b0' -- Angle filled.
 -- local leftbracket = u 'e0b3' -- Angle.
 -- local rightbracket = u 'e0b1' -- Angle.
@@ -73,29 +73,29 @@ end
 
 -- Colours, maps and icons {{{2
 local colors = {
-  bg       = bgcolor();
-  modetext = '#000000',
+  bg              = bgcolor(),
+  modetext        = '#000000',
 
-  giticon = '#FF8800',
-  gitbg   = '#5C2C2E',
-  gittext = '#C5C5C5',
+  giticon         = '#FF8800',
+  gitbg           = '#5C2C2E',
+  gittext         = '#C5C5C5',
 
-  diagerror = '#F44747',
-  diagwarn  = '#FF8800',
-  diaghint  = '#4FC1FF',
-  diaginfo  = '#FFCC66',
+  diagerror       = '#F44747',
+  diagwarn        = '#FF8800',
+  diaghint        = '#4FC1FF',
+  diaginfo        = '#FFCC66',
 
-  lspicon = '#68AF00',
-  lspbg   = '#304B2E',
-  lsptext = '#C5C5C5',
+  lspicon         = '#68AF00',
+  lspbg           = '#304B2E',
+  lsptext         = '#C5C5C5',
 
-  typeicon = '#FF8800',
-  typebg   = '#5C2C2E',
-  typetext = '#C5C5C5',
+  typeicon        = '#FF8800',
+  typebg          = '#5C2C2E',
+  typetext        = '#C5C5C5',
 
-  statsicon = '#9CDCFE',
-  statsbg   = '#5080A0',
-  statstext = '#000000',
+  statsicon       = '#9CDCFE',
+  statsbg         = '#5080A0',
+  statstext       = '#000000',
 
   lineokfg        = '#000000',
   lineokbg        = '#5080A0',
@@ -103,23 +103,23 @@ local colors = {
   linelongwarnfg  = '#FFFF00',
   linelongbg      = '#5080A0',
 
-  shortbg   = '#DCDCAA',
-  shorttext = '#000000',
+  shortbg         = '#DCDCAA',
+  shorttext       = '#000000',
 
-  shortrightbg   = '#3F3F3F',
-  shortrighttext = '#7C4C4E',
+  shortrightbg    = '#3F3F3F',
+  shortrighttext  = '#7C4C4E',
 
-  gpsbg   = '#5C00A3',
-  gpstext = '#C5C5C5',
+  gpsbg           = '#5C00A3',
+  gpstext         = '#C5C5C5',
 
-  red     = '#D16969',
-  yellow  = '#DCDCAA',
-  magenta = '#D16D9E',
-  green   = '#608B4E',
-  orange  = '#FF8800',
-  purple  = '#C586C0',
-  blue    = '#569CD6',
-  cyan    = '#4EC9B0'
+  red             = '#D16969',
+  yellow          = '#DCDCAA',
+  magenta         = '#D16D9E',
+  green           = '#608B4E',
+  orange          = '#FF8800',
+  purple          = '#C586C0',
+  blue            = '#569CD6',
+  cyan            = '#4EC9B0'
 }
 
 local mode_map = {
@@ -158,7 +158,7 @@ local mode_map = {
 local icons = {
   vim = u 'e62b',
   dos = u 'e70f',
-  unix = u 'f17c',
+  unix = u 'f179',
   mac = u 'f179',
 }
 -- }}}2

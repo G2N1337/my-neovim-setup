@@ -88,8 +88,8 @@ thingy:close()
 local datetime = os.date " %H:%M"
 
 local gitRepo = "REPO: " ..
-    vim.fn.system("basename -s .git `git config --get remote.origin.url`") .. ""
-local gitBranchFromRepo = "BRANCH: " .. vim.fn.system("git rev-parse --abbrev-ref HEAD") .. ""
+    vim.fn.system("basename -s .git `git config --get remote.origin.url`") or 'NO' .. ""
+local gitBranchFromRepo = "BRANCH: " .. vim.fn.system("git rev-parse --abbrev-ref HEAD") or 'NO' .. ""
 
 local hi_top_section = {
   type = "text",
