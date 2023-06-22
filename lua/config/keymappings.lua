@@ -21,10 +21,9 @@ keymap("v", ">", ">gv", silent)
 -- Case change in visual mode
 keymap("v", "`", "u", silent)
 keymap("v", "<A-`>", "U", silent)
-
 -- Save file by CTRL-S
 keymap("n", "<C-s>", ":w<CR>", silent)
-keymap("i", "<aoskdoaskdaoksdokasodkC-s>", "<ESC> :w<CR>i", silent)
+keymap("i", "<C-s>", "<ESC> :w<CR>i", silent)
 
 -- Telescope
 keymap("n", "<C-p>", "<CMD>lua require('plugins.telescope').project_files()<CR>")

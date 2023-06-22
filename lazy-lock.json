@@ -71,6 +71,7 @@
   "package-info.nvim": { "branch": "master", "commit": "4d98c8cc90d970d87c472c04bf7ca712336cc753" },
   "plenary.nvim": { "branch": "master", "commit": "9ac3e9541bbabd9d73663d757e4fe48a675bb054" },
   "popup.nvim": { "branch": "master", "commit": "b7404d35d5d3548a82149238289fa71f7f6de4ac" },
+  "prettier.nvim": { "branch": "main", "commit": "d98e732cb73690b07c00c839c924be1d1d9ac5c2" },
   "printer.nvim": { "branch": "master", "commit": "8f8732a6e299cba8b1ad6a45173dfe8f99cbf10f" },
   "promise-async": { "branch": "main", "commit": "e94f35161b8c5d4a4ca3b6ff93dd073eb9214c0e" },
   "shade.nvim": { "branch": "master", "commit": "4286b5abc47d62d0c9ffb22a4f388b7bf2ac2461" },

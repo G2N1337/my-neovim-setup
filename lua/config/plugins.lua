@@ -21,6 +21,7 @@ return {
     lazy = true,
     event = "VeryLazy"
   },
+  { "MunifTanjim/prettier.nvim" },
   {
     "nvim-tree/nvim-web-devicons",
     config = function()
@@ -230,7 +231,7 @@ return {
           if #results == 1 then
             jump(results[1]) -- argument is optional
           else
-            open(results) -- argument is optional
+            open(results)    -- argument is optional
           end
         end,
       },
@@ -245,7 +246,7 @@ return {
   },
 
   -- General
-  { "AndrewRadev/switch.vim",      lazy = false },
+  { "AndrewRadev/switch.vim",            lazy = false },
   {
     "Wansmer/treesj",
     lazy = true,
@@ -276,9 +277,9 @@ return {
       require("plugins.toggleterm")
     end,
   },
-  { "tpope/vim-repeat",           lazy = false },
-  { "tpope/vim-speeddating",      lazy = false },
-  { "dhruvasagar/vim-table-mode", ft = { "markdown" } },
+  { "tpope/vim-repeat",            lazy = false },
+  { "tpope/vim-speeddating",       lazy = false },
+  { "dhruvasagar/vim-table-mode",  ft = { "markdown" } },
   {
     "mg979/vim-visual-multi",
     keys = {
